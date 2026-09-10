@@ -484,6 +484,9 @@ button {
         width: 260px;
         left: 49.30%;
     }
+    .shiv-container {
+            height: 68vh;
+    }
 
     @keyframes eyeReveal {
 
@@ -524,14 +527,14 @@ button {
 
         90% {
             opacity: 0.6;
-            top: 175px;
+            top: 150px;
             transform: translateX(-50%) scale(0.3);
             filter: blur(4px);
         }
 
         100% {
             opacity: 0;
-            top: 205px;
+            top: 160px;
             transform: translateX(-50%) scale(0);
             filter: blur(8px);
         }
