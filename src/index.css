@@ -482,56 +482,56 @@ button {
 
     .animated-eye {
         width: 260px;
-        left: 49.70%;
+        left: 49.30%;
     }
 
     @keyframes eyeReveal {
 
         0% {
             opacity: 0.50;
-            top: 20px;
+            top: 30px;
             transform: translateX(-50%) scale(0.2);
             filter: blur(40px);
         }
 
         25% {
             opacity: 1;
-            top: 30px;
+            top: 40px;
             transform: translateX(-50%) scale(1);
             filter: blur(0);
         }
 
         50% {
             opacity: 1;
-            top: 30px;
+            top: 60px;
             transform: translateX(-50%) scale(1);
             filter: blur(0);
         }
 
         65% {
             opacity: 1;
-            top: 60px;
+            top: 80px;
             transform: translateX(-50%) scale(0.8);
             filter: blur(1px);
         }
 
         78% {
             opacity: 0.9;
-            top: 90px;
+            top: 110px;
             transform: translateX(-50%) scale(0.55);
             filter: blur(2px);
         }
 
         90% {
             opacity: 0.6;
-            top: 125px;
+            top: 175px;
             transform: translateX(-50%) scale(0.3);
             filter: blur(4px);
         }
 
         100% {
             opacity: 0;
-            top: 125px;
+            top: 205px;
             transform: translateX(-50%) scale(0);
             filter: blur(8px);
         }
