@@ -90,9 +90,6 @@ function Navbar() {
             <Link to="/meditation" className={`nav-link-item ${isActive("/meditation") ? "active" : ""}`}>
               Meditation
             </Link>
-            <Link to="/teachings" className={`nav-link-item ${isActive("/teachings") ? "active" : ""}`}>
-              Teachings
-            </Link>
             <Link to="/benefits" className={`nav-link-item ${isActive("/benefits") ? "active" : ""}`}>
               Benefits
             </Link>
@@ -192,7 +189,6 @@ function Navbar() {
           <Link to="/about" className={`mobile-link-item ${isActive("/about") ? "active" : ""}`}>About Us</Link>
           <Link to="/programs" className={`mobile-link-item ${isActive("/programs") ? "active" : ""}`}>Yoga Programs</Link>
           <Link to="/meditation" className={`mobile-link-item ${isActive("/meditation") ? "active" : ""}`}>Meditation & Kriya</Link>
-          <Link to="/teachings" className={`mobile-link-item ${isActive("/teachings") ? "active" : ""}`}>Teachings</Link>
           <Link to="/benefits" className={`mobile-link-item ${isActive("/benefits") ? "active" : ""}`}>Benefits of Yoga</Link>
           <Link to="/trainers" className={`mobile-link-item ${isActive("/trainers") ? "active" : ""}`}>Our Trainers</Link>
           <Link to="/gallery" className={`mobile-link-item ${isActive("/gallery") ? "active" : ""}`}>Photo Gallery</Link>

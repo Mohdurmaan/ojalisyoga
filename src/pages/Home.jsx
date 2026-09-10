@@ -11,6 +11,7 @@ import {
   IconLotus,
   IconSparkle
 } from "../components/Icons";
+import HomeGallerySection from "../components/HomeGallerySection";
 
 function Home() {
   const programsData = [
@@ -416,7 +417,12 @@ function Home() {
       </section>
 
       {/* =================================================================
-          6. BENEFITS OF YOGA SECTION (Zero Emojis, Pure SVG Icons)
+          6. CIRCULAR GALLERY SECTION (Sacred Sadhana & Himalayan Dawn)
+          ================================================================= */}
+      <HomeGallerySection />
+
+      {/* =================================================================
+          7. BENEFITS OF YOGA SECTION (Zero Emojis, Pure SVG Icons)
           ================================================================= */}
       <section className="benefits-overview-section">
         <div className="container">

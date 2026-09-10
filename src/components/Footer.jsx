@@ -65,7 +65,6 @@ function Footer() {
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/programs">Yoga Programs</Link></li>
               <li><Link to="/meditation">Meditation & Kriya</Link></li>
-              <li><Link to="/teachings">Teachings</Link></li>
               <li><Link to="/trainers">Our Trainers</Link></li>
               <li><Link to="/benefits">Benefits of Yoga</Link></li>
               <li><Link to="/gallery">Gallery</Link></li>

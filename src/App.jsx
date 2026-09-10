@@ -9,7 +9,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Programs from "./pages/Programs";
 import Meditation from "./pages/Meditation";
-import Teachings from "./pages/Teachings";
 import Benefits from "./pages/Benefits";
 import Trainers from "./pages/Trainers";
 import Gallery from "./pages/Gallery";
@@ -40,7 +39,6 @@ function AppContent() {
         <Route path="/about" element={<About />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/meditation" element={<Meditation />} />
-        <Route path="/teachings" element={<Teachings />} />
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/trainers" element={<Trainers />} />
         <Route path="/gallery" element={<Gallery />} />
