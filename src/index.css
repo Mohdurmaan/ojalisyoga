@@ -300,7 +300,7 @@ button {
 
     /* Starting position */
     top: 10px;
-    left: 49.80%;
+    left: 49.70%;
 
     width: 350px;
     height: auto;
@@ -459,7 +459,7 @@ button {
     position: absolute;
 
     top: 10px;
-    left: 49.80%;
+    left: 49.70%;
 
     width: 350px;
     height: auto;
@@ -482,7 +482,7 @@ button {
 
     .animated-eye {
         width: 260px;
-        left: 49.80%;
+        left: 49.70%;
     }
 
     @keyframes eyeReveal {
