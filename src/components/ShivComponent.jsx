@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import eyeImage from '../assets/shivji-eye.png';
-import bgImage from '../assets/shiv-ji.jpg';
+import bgImage from '../assets/shivjibb.jpeg';
 
 import '../index.css';
 
