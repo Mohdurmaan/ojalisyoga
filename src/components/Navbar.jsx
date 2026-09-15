@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       {/* ================= TOP UTILITY BAR ================= */}
-      <div className="top-bar">
+      {/* <div className="top-bar">
         <div className="container top-bar-inner">
           {/* Left: Studio Hours & Live Status */}
           <div className="top-bar-left">
@@ -62,7 +62,7 @@ function Navbar() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* ================= MAIN NAVBAR ================= */}
       <header className={`ojalis-navbar ${isScrolled ? "scrolled" : ""}`}>
