@@ -26,43 +26,7 @@ function Navbar() {
   return (
     <>
       {/* ================= TOP UTILITY BAR ================= */}
-      /* <div className="top-bar">
-        <div className="container top-bar-inner">
-          {/* Left: Studio Hours & Live Status */}
-          <div className="top-bar-left">
-            <div className="top-bar-item">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="10" />
-                <polyline points="12 6 12 12 16 14" />
-              </svg>
-              <span>Daily Sadhana: <strong>6:00 AM – 10:30 AM</strong> & <strong>4:30 PM – 8:30 PM</strong></span>
-            </div>
-            <div className="badge-live-status">
-              <span className="pulse-dot"></span>
-              <span>Open for Admissions & Practice</span>
-            </div>
-          </div>
-
-          {/* Right: Phone & WhatsApp Quick Connect */}
-          <div className="top-bar-right">
-            <a href="tel:+919876543210" className="top-bar-phone">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-              </svg>
-              <span>+91 98765 43210</span>
-            </a>
-            <a 
-              href="https://wa.me/919876543210?text=Hello%20Ojalis%20Yogic%20Kriya,%20I%20would%20like%20to%20inquire%20about%20your%20yoga%20and%20meditation%20programs." 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="top-bar-wa"
-              aria-label="WhatsApp Connect"
-            >
-              <span>WhatsApp</span>
-            </a>
-          </div>
-        </div>
-      </div> */
+    
 
       {/* ================= MAIN NAVBAR ================= */}
       <header className={`ojalis-navbar ${isScrolled ? "scrolled" : ""}`}>
