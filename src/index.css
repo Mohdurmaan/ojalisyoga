@@ -2,15 +2,15 @@
 @import "./ojalis.css";
 
 :root {
-  --ojalis-burgundy: #C9A227;
-  --ojalis-burgundy-dark: #C9A227;
-  --ojalis-burgundy-light: #C9A227;
+  --ojalis-burgundy: #4A1525;
+  --ojalis-burgundy-dark: #320B17;
+  --ojalis-burgundy-light: #6A2136;
   --ojalis-burgundy-subtle: rgba(74, 21, 37, 0.05);
   --ojalis-burgundy-15: rgba(74, 21, 37, 0.15);
   
-  --ojalis-gold:#F5EDE0;
-  --ojalis-gold-light: #F5EDE0;
-  --ojalis-gold-dark: #F5EDE0;
+  --ojalis-gold: #C59B4B;
+  --ojalis-gold-light: #DFBD74;
+  --ojalis-gold-dark: #9B7328;
   --ojalis-gold-subtle: rgba(197, 155, 75, 0.12);
   --ojalis-gold-border: rgba(197, 155, 75, 0.35);
 
